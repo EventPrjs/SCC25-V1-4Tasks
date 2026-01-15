@@ -13,7 +13,7 @@ public class RowPixel : MonoBehaviour
         KeyCode.LeftArrow,
         KeyCode.DownArrow,
         KeyCode.RightArrow,
-        KeyCode.Space
+        KeyCode.S
     };
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
