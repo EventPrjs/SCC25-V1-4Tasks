@@ -2189,7 +2189,7 @@ MonoBehaviour:
   captureArea:
     serializedVersion: 2
     x: 0
-    y: -200
+    y: 325
     width: 1900
     height: 300
 --- !u!114 &825473060
