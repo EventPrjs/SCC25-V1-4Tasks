@@ -6,7 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/MyGame/Scenes/2D/SCC2026.unity
+    guid: f1000b6928a14f9448279b4dacbb6052
+  - enabled: 1
     path: Assets/MyGame/Scenes/2D/ShowPixels7Bit.unity
     guid: 4d7f48d2b8379a844b9c8d8bb3537fbe
+  - enabled: 1
+    path: Assets/MyGame/Scenes/2D/Single7SegmentGlow.unity
+    guid: 209e51309eb273e47996153ede4f54df
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
