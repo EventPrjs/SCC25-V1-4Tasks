@@ -50,12 +50,13 @@ public class SevenSegmentDisplay : MonoBehaviour
     {
         keySegmentMap = new Dictionary<KeyCode, Segments>
         {
-            { KeyCode.DownArrow, Segments.A },
-            { KeyCode.UpArrow, Segments.B },
-            { KeyCode.LeftArrow, Segments.C },
-            { KeyCode.RightArrow, Segments.D },
-            { KeyCode.Space, Segments.E },
-            { KeyCode.W, Segments.G }
+            { KeyCode.W, Segments.A },
+            { KeyCode.A, Segments.B },
+            { KeyCode.UpArrow, Segments.C },
+            { KeyCode.LeftArrow, Segments.D },
+            { KeyCode.DownArrow, Segments.E },
+            { KeyCode.RightArrow, Segments.F },
+            { KeyCode.S, Segments.G }
         };
 
         SetPosition();
@@ -132,13 +133,13 @@ public class SevenSegmentDisplay : MonoBehaviour
 
     private void Update() 
     {
-        inputDisplay[(int)Segments.A] = Input.GetKey(KeyCode.A);
-        inputDisplay[(int)Segments.B] = Input.GetKey(KeyCode.D);
-        inputDisplay[(int)Segments.C] = Input.GetKey(KeyCode.S);
-        inputDisplay[(int)Segments.D] = Input.GetKey(KeyCode.F);
-        inputDisplay[(int)Segments.E] = Input.GetKey(KeyCode.UpArrow);
-        inputDisplay[(int)Segments.F] = Input.GetKey(KeyCode.Space);
-        inputDisplay[(int)Segments.G] = Input.GetKey(KeyCode.DownArrow);
+        inputDisplay[(int)Segments.A] = Input.GetKey(KeyCode.W);
+        inputDisplay[(int)Segments.B] = Input.GetKey(KeyCode.A);
+        inputDisplay[(int)Segments.C] = Input.GetKey(KeyCode.UpArrow);
+        inputDisplay[(int)Segments.D] = Input.GetKey(KeyCode.LeftArrow);
+        inputDisplay[(int)Segments.E] = Input.GetKey(KeyCode.DownArrow);
+        inputDisplay[(int)Segments.F] = Input.GetKey(KeyCode.RightArrow);
+        inputDisplay[(int)Segments.G] = Input.GetKey(KeyCode.S);
 
 
         string all = " ";
